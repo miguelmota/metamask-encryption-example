@@ -1,0 +1,19 @@
+{
+  "name": "metamask-encryption-example",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "browserify public/main -o public/dist/bundle.js"
+  },
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "browserify": "^7.0.0"
+  },
+  "dependencies": {
+    "buffer": "^6.0.3",
+    "eth-sig-util": "3.0.0"
+  }
+}
